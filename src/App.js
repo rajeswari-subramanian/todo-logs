@@ -1,5 +1,6 @@
 import Timer from './components/timer';
 import TodoLog from './components/todolog';
+import Styles from './App.module.scss'
 
 function App() {
   return (
