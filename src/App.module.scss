@@ -1,0 +1,14 @@
+@import '../src/styles/variables';
+
+@mixin initial {
+    margin: $app-margin;
+    padding: $app-padding;
+    text-align: $app-align-text;
+    background-color: $app-back-color;
+}
+
+body {
+    @include initial;
+    width: 100%;
+    height: 100%;
+}
