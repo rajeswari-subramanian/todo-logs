@@ -9,6 +9,78 @@
 
 body {
     @include initial;
+    // background: linear-gradient(184deg, #f5c25f, transparent);;
     width: 100%;
     height: 100%;
+    font-family: $app-font-family;
+    color: rgb(19, 76, 76)
+}
+
+.appContainer {
+    margin: 2% auto;
+    width: 30%;
+    border-radius: $app-border-radi;
+    background: rgb(39, 34, 38);
+    box-shadow: 2px 2px 20px 2px rgb(8, 35, 35);
+}
+
+.boxTitle {
+    // box-shadow:2px 2px 20px 10px bisque;
+    padding: 30px 0px 30px 5px;
+    font-weight: bolder;
+    border-radius: $app-border-radi;
+    width: 100%;
+    margin: auto;
+    font-size: $app-font-size;
+    color: #48ae8c
+}
+
+.inputContainer {
+    // box-shadow:0px 2px 30px 0px bisque;
+    background-color: #134c4c;
+    margin: auto;
+    width: 100%;
+    text-align: left;
+    border-radius: $app-border-radi;
+}
+
+.todoContainer {
+    // box-shadow:0px 2px 30px 0px bisque;
+    padding: 30px 0px 30px 10px;
+    background-color: #134c4c;
+    margin: auto;
+    width: 98%;
+    text-align: left;
+    box-shadow: 1px 1px 10px 1px;
+    color: #82807d;
+    font-size: $app-font-size;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 15px;
+
+}
+
+.inputBox {
+    padding: 30px 0px 30px 10px;
+    border-radius: $app-border-radi;
+    width: 75%;
+    background-color: #134c4c;
+    color: #82807d;
+    font-size: $app-font-size;
+    outline: none;
+    border: transparent;
+    margin-right: 2.8%;
+}
+
+.inputBtn {
+    padding: 30px 0px 30px 0px;
+    width: 20%;
+    background-color: rgb(193, 137, 32);
+    color: #134c4c;
+    font-size: $app-font-size;
+    outline: none;
+    border: transparent;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }

@@ -1,12 +1,14 @@
 import Timer from './components/timer';
-import TodoLog from './components/todolog';
 import Styles from './App.module.scss';
+import TodoTitle from './components/todoTitle';
+import TodoSearch from './components/todoSearch';
 
 function App() {
   return (
-    <div>
+    <div className={Styles.appContainer}>
+      <TodoTitle />
       <Timer />
-      <TodoLog />
+      <TodoSearch />
     </div>
   );
 }
